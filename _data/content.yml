@@ -6,23 +6,23 @@
 ### Hero [ hero-image ]
 hero:
   image: "assets/img/profile2.png"
-  image_alt: "Zoé Miller"
-  title: "<b>Zoé</b> Miller"
-  before_title: "Hello, <b>my name is</b>"
-  after_title: "I am <strong>Web Developer</strong>"
-  description: "From France, Paris. I have rich experience in web design, also I am good at wordpress. I love to talk with you about our unique."
+  image_alt: "김윤중"
+  title: "<b>Kim</b> Yunjung"
+  before_title: "환영합니다. <b>제 이름은</b>"
+  after_title: "I am <strong>Cyber Security Professional</strong>"
+  description: "폴리텍 대학 강서캠퍼스 사이버보안과 2학년 입니다."
   button1:
-    label: "Download CV"
-    link: "https://drive.google.com/"
+    label: "이력서 다운 받기"
+    link: "#"
   button2:
     label: "My Skills"
     link: "#skills-section"
-  bg_title: "Web Developer"
+  bg_title: "Cyber Security"
   info:
-    - num: "12 <strong>+</strong>"
+    - num: "2 <strong>+</strong>"
       value: "Years of <strong>Experience</strong>"
 
-    - num: "330"
+    - num: "4"
       value: "Completed <strong>Projects</strong>"
 
 ### Services [ services ]

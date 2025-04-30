@@ -67,17 +67,18 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  x64-mingw-ucrt
 
 DEPENDENCIES
-  jekyll (~> 4.2.2)
+  jekyll
   jekyll-archives
-  jekyll-feed (~> 0.16)
+  jekyll-feed
   jekyll-paginate
   jekyll-seo-tag
-  tzinfo (~> 1.2)
+  tzinfo
   tzinfo-data
-  wdm (~> 0.1.1)
-  webrick (~> 1.7)
+  wdm
+  webrick
 
 BUNDLED WITH
    2.3.6
