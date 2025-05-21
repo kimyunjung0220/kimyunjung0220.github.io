@@ -21,7 +21,7 @@ Description (ko)
 
 ## 🔍 End Point 분석
 
-```bash
+<pre>
 from flask import Flask, request, jsonify, render_template, redirect, url_for
 from os import popen
 
@@ -50,7 +50,7 @@ class Principal(Teacher):
     def command(self):
         command = self.cmd if hasattr(self, 'cmd') else 'echo Permission Denied'
         return f'{popen(command).read().strip()}'
-```
+</pre>
 
 조직을 관리하기 위해 조직 클래스가 정의되어 있습니다.  
 각 클래스는 자신의 상단 클래스를 상속 받고 있으며,  
@@ -61,7 +61,7 @@ class Principal(Teacher):
 
 
 
-```bash
+<pre>
 def merge(src, dst):
     for k, v in src.items():
         if hasattr(dst, '__getitem__'):
@@ -73,7 +73,7 @@ def merge(src, dst):
             merge(v, getattr(dst, k))
         else:
             setattr(dst, k, v)
-```
+</pre>
 
 
 
@@ -82,7 +82,7 @@ merge 함수를 통하여 사용자가 입력한 값을 **검증없이** setattr
 실행될 수 있는 아주 취약한 구성을 가지고 있습니다.  
 
 
-```bash
+<pre>
 
 principal = Principal("principal")
 members = []
@@ -130,7 +130,7 @@ def get_members():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 
-```
+</pre>
 
 
 
@@ -149,7 +149,7 @@ if __name__ == '__main__':
 있기에 cmd를 만들어 준다고 해서 cmd값을 가져와 명령이 실행될 일은 없습니다.  
 
 Class를 오염시키는 방법을 공략해볼 수 있습니다.
-```bash
+<pre>
 class hello():
     def __init__(self):
         self.msg = "안녕하세요."
@@ -166,16 +166,16 @@ setattr(obj1.__class__, "tt", "객체의 메타데이터가 오염되었습니�
 
 print(obj1.tt)
 print(obj2.tt)
-```
+</pre>
 
 python의 class를 오염시키는 샘플코드 입니다.  
-```bash 
+<pre> 
 실행 결과 : 
 안녕하세요.
 안녕히가세요
 객체의 메타데이터가 오염되었습니다.
 객체의 메타데이터가 오염되었습니다.
-```
+</pre>
 
 Reference : https://blog.abdulrah33m.com/prototype-pollution-in-python/
 ## 💡 알게된 점
