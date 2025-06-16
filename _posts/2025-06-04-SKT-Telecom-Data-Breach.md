@@ -3,7 +3,7 @@ layout: post
 title: "SKT Telecom Data breach"
 date: 2025-06-04
 category: Python
-image: assets/img/blog/async-await.jpg
+image: assets/img/blog/SKT.png
 author: 김윤중
 tags: Malware Analysis, BackDoor, 
 ---
