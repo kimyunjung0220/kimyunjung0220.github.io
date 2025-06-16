@@ -3,7 +3,7 @@ layout: post
 title: "IDS Detect algorithm review"
 date: 2025-05-28
 category: Python
-image: assets/img/blog/async-await.jpg
+image: assets/img/blog/IDS.png
 author: 김윤중
 tags: Python Data Structure Hash, Brute Force Search
 ---
