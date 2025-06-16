@@ -492,6 +492,50 @@ code {
 	max-width: 100%;
 	white-space: nowrap;
 }
+/* 코드 블록 기본 스타일 */
+pre code {
+ display: block;
+ padding: 20px;
+ font-style: normal;
+ white-space: pre;
+ overflow-x: auto;
+ line-height: 1.6;
+ border-radius: 8px;
+ font-family: 'Fira Code', 'Monaco', 'Consolas', monospace;
+ font-size: 14px;
+}
+
+/* 라이트 모드 코드 블록 */
+.light-skin pre code,
+body:not(.dark-skin) pre code {
+ background: #2d3748;  /* 어두운 배경 */
+ color: #e2e8f0;       /* 밝은 텍스트 */
+ border: 1px solid #4a5568;
+}
+
+/* 다크 모드 코드 블록 */
+.dark-skin pre code {
+ background: #1a202c;  /* 더 어두운 배경 */
+ color: #e2e8f0;       /* 밝은 텍스트 */
+ border: 1px solid #2d3748;
+}
+
+/* 라이트 모드에서 인라인 코드 */
+.light-skin code:not(pre code),
+body:not(.dark-skin) code:not(pre code) {
+ background: #2d3748;
+ color: #e2e8f0;
+ padding: 2px 6px;
+ border-radius: 4px;
+}
+
+/* 다크 모드에서 인라인 코드 */
+.dark-skin code:not(pre code) {
+ background: #4a5568;
+ color: #e2e8f0;
+ padding: 2px 6px;
+ border-radius: 4px;
+}
 
 pre {
 	margin: 30px 0;
