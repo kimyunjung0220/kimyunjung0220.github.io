@@ -22,20 +22,12 @@ header:
 social:
   - title: "Twitter"
     icon: "fab fa-twitter"
-    url: "http://twitter.com"
-
-  - title: "Dribbble"
-    icon: "fab fa-dribbble"
-    url: "http://dribbble.com"
-
-  - title: "Behance"
-    icon: "fab fa-behance"
-    url: "http://behance.com"
+    url: "https://x.com/helloezez"
 
 ### Footer
 footer:
-  developer: "Developed by <strong>bslthemes</strong>"
-  copyright: "<strong>Luique</strong>. All rights reserved"
+  developer: "Developed by <strong>Kimyunjung</strong>"
+  copyright: "<strong>Kimyunjung</strong>. All rights reserved"
 
 ### Portfolio Filters Settings
 portfolio:
