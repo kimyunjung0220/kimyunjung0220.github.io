@@ -3,7 +3,7 @@ layout: post
 title: "Level 3: Pybrid"
 date: 2025-05-14
 category: Python
-image: assets/img/blog/async-await.jpg
+image: assets/img/blog/wargame.png
 author: 김윤중
 tags: Python class pollution, JS Prototype Pollution
 ---
