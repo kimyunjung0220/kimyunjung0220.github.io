@@ -69,13 +69,13 @@ skills:
   column2:
     items:
       - label: "Maria DB" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        text: "CRUD 활용 및 SQl Injection, 데이터 테이블 응용 및 관리"
         value: "75" #0-100 progress in %
 
   column3:
     items:
-      - label: "React" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - label: "Linux" #0-10 progress in dots
+        text: "방화벽 구축 및 리눅스 기반 취약점 분석"
         value: "70" #0-100 progress in %
 
 ### Resume [ resume ]
