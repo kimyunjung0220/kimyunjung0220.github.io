@@ -30,17 +30,3 @@ footer:
   copyright: "<strong>Kimyunjung</strong>. All rights reserved"
 
 ### Portfolio Filters Settings
-portfolio:
-  layout: "list" # select works layout options: "Grid" or "List"
-  filters:
-    - name: "UI UX Design"
-      slug: "ui-ux-design"
-
-    - name: "Photography"
-      slug: "photography"
-
-    - name: "Development"
-      slug: "development"
-
-    - name: "Branding"
-      slug: "branding"
